@@ -1,6 +1,5 @@
 resource "aws_security_group" "sg_nginx" {
   name   = "allow_nginx"
-  vpc_id = var.vpc_id
 
   ingress {
     description = "allow http from internet"

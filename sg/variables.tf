@@ -14,8 +14,8 @@ variable "list_vm" {
   default = ["vm1", "vm2"]
 }
 
-// ==== VPC ====
-variable "vpc_id" {
-  type    = string
-  # default = "vpc-0a7518d1f364ea5da" // ID VPC
-}
+# // ==== VPC ====
+# variable "vpc_id" {
+#   type    = string
+#   # default = "vpc-0a7518d1f364ea5da" // ID VPC
+# }
