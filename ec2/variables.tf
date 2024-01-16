@@ -15,7 +15,7 @@ variable "list_vm" {
 }
 
 variable "security_group_names" {
-  type = list(string)
+  type = list(string) #kok gak pake default yha?
 }
 
 // ==== VPC ====
